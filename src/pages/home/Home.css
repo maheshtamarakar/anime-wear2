@@ -1,0 +1,64 @@
+.home-page {
+  background: #f7f7f7;
+}
+
+/* ================= SLIDER ================= */
+.hero-slider {
+  margin-bottom: 60px;
+}
+
+.slide {
+  height: 420px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: #fff;
+}
+
+.slide h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.slide p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.slide-one {
+  background: linear-gradient(90deg, #000000cc, #00000055),
+    url("https://images.unsplash.com/photo-1602810316498-ab67cf68c8e1")
+      center / cover;
+}
+
+.slide-two {
+  background: linear-gradient(90deg, #000000cc, #00000055),
+    url("https://images.unsplash.com/photo-1542060748-10c28b62716f")
+      center / cover;
+}
+
+.slide-three {
+  background: linear-gradient(90deg, #000000cc, #00000055),
+    url("https://images.unsplash.com/photo-1618354691373-d851c5c3a990")
+      center / cover;
+}
+
+/* ================= CATEGORIES ================= */
+.categories {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px 80px;
+}
+
+.categories h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
